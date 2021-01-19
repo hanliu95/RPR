@@ -34,6 +34,15 @@ Review Polarity-wise Recommender.
   Epoch1
   train_rmse, mae: 12.96096449376287 4.444802466460015
   loss_valid 0.0790606, mse_valid 12.9509, rmse_valid 3.59874, mae_valid 4.49034
+  
+  ...
   ```
   
   When the execution finished, the best performance on testing set will be printed:
+  
+  ```
+  best mse: 12.945653418915878
+  best rmse: 3.59800686754707
+  best mae: 4.4903358925155725
+  end
+  ```

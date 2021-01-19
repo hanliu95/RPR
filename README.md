@@ -26,4 +26,14 @@ Review Polarity-wise Recommender.
 
   During the execution, the RPR performance on both training and testing sets will be printed after each optimization epoch:
   
+  ```
+  Epoch0
+  train_rmse, mae: 12.963800177883629 4.467760515904249
+  loss_valid 0.080343, mse_valid 12.9457, rmse_valid 3.59801, mae_valid 4.49299
+
+  Epoch1
+  train_rmse, mae: 12.96096449376287 4.444802466460015
+  loss_valid 0.0790606, mse_valid 12.9509, rmse_valid 3.59874, mae_valid 4.49034
+  ```
+  
   When the execution finished, the best performance on testing set will be printed:

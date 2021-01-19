@@ -29,11 +29,11 @@ Review Polarity-wise Recommender.
   ```
   Epoch 0
   train_rmse, mae: 12.963 4.467
-  loss_valid 0.080, mse_valid 12.945, rmse_valid 3.598, mae_valid 4.492
+  test_loss 0.080, test_mse 12.945, test_rmse 3.598, test_mae 4.492
 
   Epoch 1
   train_rmse, mae: 12.960 4.444
-  loss_valid 0.079, mse_valid 12.950, rmse_valid 3.598, mae_valid 4.490
+  test_loss 0.079, test_mse 12.950, test_rmse 3.598, test_mae 4.490
   
   ...
   ```
@@ -41,8 +41,8 @@ Review Polarity-wise Recommender.
   When the execution finished, the best performance on testing set will be printed:
   
   ```
-  best mse: 0.795
-  best rmse: 0.892
-  best mae: 0.652
+  best_mse: 0.795
+  best_rmse: 0.892
+  best_mae: 0.652
   end
   ```
